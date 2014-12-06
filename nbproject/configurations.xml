@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="aco">
+        <in>AntSolver.cpp</in>
+        <in>AntSolver2.cpp</in>
+        <in>AntSolverGraph.cpp</in>
+        <in>AntSolverGraph2.cpp</in>
+      </df>
+      <df name="benchmarks">
+        <in>BenchmarkGeneticSAT.cpp</in>
+        <in>benchmarkAntSolver.cpp</in>
+        <in>benchmarkAntSolver2.cpp</in>
+        <in>benchmarkMain.cpp</in>
+      </df>
+      <df name="conceitos">
+        <in>test_si.cpp</in>
+      </df>
+      <df name="csp">
+        <in>BasicCSP.cpp</in>
+        <in>BasicCSPConstraintList.cpp</in>
+        <in>BasicCSPDomainList.cpp</in>
+        <in>CSPChromossomeImprover.cpp</in>
+        <in>CSPGABuilder.cpp</in>
+        <in>CSPGeneticOperators.cpp</in>
+        <in>CSPGeneticSolverExtraData.cpp</in>
+        <in>CSPInterpretation.cpp</in>
+        <in>CSPProblem.cpp</in>
+        <in>CSPVariableDomain.cpp</in>
+        <in>CSPVariableValue.cpp</in>
+        <in>Constraint.cpp</in>
+        <in>CrosswordsCSP.cpp</in>
+        <in>MinConflicts.cpp</in>
+        <in>NQueensCSP.cpp</in>
+        <in>NQueensCSPConstraintList.cpp</in>
+        <in>RandomCSP.cpp</in>
+        <in>VirtualCSPDomainList.cpp</in>
+      </df>
+      <df name="ga">
+        <in>GeneticSolver.cpp</in>
+      </df>
+      <df name="sat">
+        <in>2SATSolver.cpp</in>
+        <in>BasicCNFSolver.cpp</in>
+        <in>CNFChromossomeImprover.cpp</in>
+        <in>CNFFitnessEvaluator.cpp</in>
+        <in>CNFFormula.cpp</in>
+        <in>CNFGeneticOperators.cpp</in>
+        <in>Clause.cpp</in>
+        <in>Interpretation.cpp</in>
+        <in>SATGABuilder.cpp</in>
+        <in>SATLIBParser.cpp</in>
+      </df>
+      <df name="sat2csp">
+        <in>CSP2SAT.cpp</in>
+        <in>DirectEncodingCSP2SAT.cpp</in>
+        <in>DualEncodingSAT2CSP.cpp</in>
+        <in>LogEncodingCSP2SAT.cpp</in>
+      </df>
+      <df name="tests">
+        <in>BenchmarkGeneticSAT.cpp</in>
+        <in>Test2SATSolver.cpp</in>
+        <in>TestAntSolver.cpp</in>
+        <in>TestArcConsistency.cpp</in>
+        <in>TestBasicCSP.cpp</in>
+        <in>TestBitArray.cpp</in>
+        <in>TestCNFFormula.cpp</in>
+        <in>TestCrosswordCSP.cpp</in>
+        <in>TestDualEncoding.cpp</in>
+        <in>TestGeneticCSP.cpp</in>
+        <in>TestGeneticSAT.cpp</in>
+        <in>TestMain.cpp</in>
+        <in>TestNQueensCSP.cpp</in>
+        <in>TestProperties.cpp</in>
+        <in>TestRandomCSP.cpp</in>
+        <in>TestSATInterpretation.cpp</in>
+        <in>TestSATLIBParser.cpp</in>
+        <in>testCSPToSAT.cpp</in>
+        <in>testMinConflicts.cpp</in>
+      </df>
+      <df name="util">
+        <in>BitArrayOps.cpp</in>
+        <in>EnumDir.cpp</in>
+        <in>Properties.cpp</in>
+        <in>Random.cpp</in>
+        <in>Timer.cpp</in>
+        <in>XString.cpp</in>
+      </df>
+      <in>main.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="aco/AntSolver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="aco/AntSolver2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aco/AntSolverGraph.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="aco/AntSolverGraph2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="benchmarks/BenchmarkGeneticSAT.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="benchmarks/benchmarkAntSolver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="benchmarks/benchmarkAntSolver2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="benchmarks/benchmarkMain.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="conceitos/test_si.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/BasicCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/BasicCSPConstraintList.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/BasicCSPDomainList.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPChromossomeImprover.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPGABuilder.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPGeneticOperators.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPGeneticSolverExtraData.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPInterpretation.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPProblem.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPVariableDomain.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CSPVariableValue.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/Constraint.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/CrosswordsCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/MinConflicts.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/NQueensCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/NQueensCSPConstraintList.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/RandomCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="csp/VirtualCSPDomainList.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="ga/GeneticSolver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/2SATSolver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/BasicCNFSolver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/CNFChromossomeImprover.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/CNFFitnessEvaluator.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/CNFFormula.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/CNFGeneticOperators.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/Clause.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/Interpretation.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/SATGABuilder.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat/SATLIBParser.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat2csp/CSP2SAT.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat2csp/DirectEncodingCSP2SAT.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat2csp/DualEncodingSAT2CSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="sat2csp/LogEncodingCSP2SAT.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/BenchmarkGeneticSAT.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/Test2SATSolver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestAntSolver.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestArcConsistency.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestBasicCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestBitArray.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestCNFFormula.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestCrosswordCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestDualEncoding.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestGeneticCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestGeneticSAT.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestMain.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestNQueensCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestProperties.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestRandomCSP.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestSATInterpretation.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/TestSATLIBParser.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/testCSPToSAT.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="tests/testMinConflicts.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="util/BitArrayOps.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="util/EnumDir.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="util/Properties.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="util/Random.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="util/Timer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="util/XString.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

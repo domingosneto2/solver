@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="aco">
+        <in>AntSolver.cpp</in>
+        <in>AntSolver.h</in>
+        <in>AntSolver2.cpp</in>
+        <in>AntSolver2.h</in>
+        <in>AntSolverGraph.cpp</in>
+        <in>AntSolverGraph.h</in>
+        <in>AntSolverGraph2.cpp</in>
+        <in>AntSolverGraph2.h</in>
+      </df>
+      <df name="benchmarks">
+        <in>BenchmarkGeneticSAT.cpp</in>
+        <in>benchmarkAntSolver.cpp</in>
+        <in>benchmarkAntSolver2.cpp</in>
+        <in>benchmarkMain.cpp</in>
+      </df>
+      <df name="conceitos">
+        <in>delete_void_pointer.cpp</in>
+        <in>test_si.cpp</in>
+      </df>
+      <df name="csp">
+        <in>BasicCSP.cpp</in>
+        <in>BasicCSP.h</in>
+        <in>BasicCSPConstraintList.cpp</in>
+        <in>BasicCSPConstraintList.h</in>
+        <in>BasicCSPDomainList.cpp</in>
+        <in>BasicCSPDomainList.h</in>
+        <in>CSPChromossomeImprover.cpp</in>
+        <in>CSPChromossomeImprover.h</in>
+        <in>CSPConstraintList.h</in>
+        <in>CSPDomainList.h</in>
+        <in>CSPGABuilder.cpp</in>
+        <in>CSPGABuilder.h</in>
+        <in>CSPGeneticOperators.cpp</in>
+        <in>CSPGeneticOperators.h</in>
+        <in>CSPGeneticSolverExtraData.cpp</in>
+        <in>CSPGeneticSolverExtraData.h</in>
+        <in>CSPInterpretation.cpp</in>
+        <in>CSPInterpretation.h</in>
+        <in>CSPLocalSearch.h</in>
+        <in>CSPProblem.cpp</in>
+        <in>CSPProblem.h</in>
+        <in>CSPVariableDomain.cpp</in>
+        <in>CSPVariableDomain.h</in>
+        <in>CSPVariableValue.cpp</in>
+        <in>CSPVariableValue.h</in>
+        <in>Constraint.cpp</in>
+        <in>Constraint.h</in>
+        <in>CrosswordsCSP.cpp</in>
+        <in>CrosswordsCSP.h</in>
+        <in>MinConflicts.cpp</in>
+        <in>MinConflicts.h</in>
+        <in>NQueensCSP.cpp</in>
+        <in>NQueensCSP.h</in>
+        <in>NQueensCSPConstraintList.cpp</in>
+        <in>NQueensCSPConstraintList.h</in>
+        <in>RandomCSP.cpp</in>
+        <in>RandomCSP.h</in>
+        <in>VirtualCSPDomainList.cpp</in>
+        <in>VirtualCSPDomainList.h</in>
+      </df>
+      <df name="ga">
+        <in>GeneticSolver.cpp</in>
+        <in>GeneticSolver.h</in>
+      </df>
+      <df name="Objetos">
+        <df name="aco">
+        </df>
+        <df name="benchmarks">
+        </df>
+        <df name="conceitos">
+        </df>
+        <df name="csp">
+        </df>
+        <df name="ga">
+        </df>
+        <df name="sat">
+        </df>
+        <df name="sat2csp">
+        </df>
+        <df name="tests">
+        </df>
+        <df name="util">
+        </df>
+      </df>
+      <df name="Release">
+      </df>
+      <df name="sat">
+        <in>2SATSolver.cpp</in>
+        <in>2SATSolver.h</in>
+        <in>BasicCNFSolver.cpp</in>
+        <in>BasicCNFSolver.h</in>
+        <in>CNFChromossomeImprover.cpp</in>
+        <in>CNFChromossomeImprover.h</in>
+        <in>CNFFitnessEvaluator.cpp</in>
+        <in>CNFFitnessEvaluator.h</in>
+        <in>CNFFormula.cpp</in>
+        <in>CNFFormula.h</in>
+        <in>CNFGeneticOperators.cpp</in>
+        <in>CNFGeneticOperators.h</in>
+        <in>Clause.cpp</in>
+        <in>Clause.h</in>
+        <in>Interpretation.cpp</in>
+        <in>Interpretation.h</in>
+        <in>SATGABuilder.cpp</in>
+        <in>SATGABuilder.h</in>
+        <in>SATLIBParser.cpp</in>
+        <in>SATLIBParser.h</in>
+      </df>
+      <df name="sat2csp">
+        <in>CSP2SAT.cpp</in>
+        <in>CSP2SAT.h</in>
+        <in>DirectEncodingCSP2SAT.cpp</in>
+        <in>DirectEncodingCSP2SAT.h</in>
+        <in>DualEncodingSAT2CSP.cpp</in>
+        <in>DualEncodingSAT2CSP.h</in>
+        <in>LogEncodingCSP2SAT.cpp</in>
+        <in>LogEncodingCSP2SAT.h</in>
+        <in>SAT2CSP.h</in>
+      </df>
+      <df name="tests">
+        <in>BenchmarkGeneticSAT.cpp</in>
+        <in>Test2SATSolver.cpp</in>
+        <in>TestAntSolver.cpp</in>
+        <in>TestArcConsistency.cpp</in>
+        <in>TestBasicCSP.cpp</in>
+        <in>TestBitArray.cpp</in>
+        <in>TestCNFFormula.cpp</in>
+        <in>TestCrosswordCSP.cpp</in>
+        <in>TestDualEncoding.cpp</in>
+        <in>TestGeneticCSP.cpp</in>
+        <in>TestGeneticSAT.cpp</in>
+        <in>TestMain.cpp</in>
+        <in>TestNQueensCSP.cpp</in>
+        <in>TestProperties.cpp</in>
+        <in>TestRandomCSP.cpp</in>
+        <in>TestSATInterpretation.cpp</in>
+        <in>TestSATLIBParser.cpp</in>
+        <in>testCSPToSAT.cpp</in>
+        <in>testMinConflicts.cpp</in>
+      </df>
+      <df name="util">
+        <in>BitArrayOps.cpp</in>
+        <in>BitArrayOps.h</in>
+        <in>EnumDir.cpp</in>
+        <in>EnumDir.h</in>
+        <in>Properties.cpp</in>
+        <in>Properties.h</in>
+        <in>Random.cpp</in>
+        <in>Random.h</in>
+        <in>Timer.cpp</in>
+        <in>Timer.h</in>
+        <in>XString.cpp</in>
+        <in>XString.h</in>
+      </df>
+      <in>main.cpp</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

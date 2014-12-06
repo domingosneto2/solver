@@ -1,0 +1,53 @@
+#!/bin/sh
+
+OBJDIR=Objetos
+
+WORDS=`find . -name "*.cpp"`
+
+cat makefile.head
+echo "main: solver"
+echo
+echo FONTES=\\
+for WORD in $WORDS; do
+	NEW_WORD=`echo $WORD | sed -e "s/\.\///"`
+	DIRNAME=`dirname $NEW_WORD`
+	BASENAME=`basename $NEW_WORD .cpp`
+	OBJNAME=$OBJDIR/$DIRNAME/$BASENAME.o	
+	#echo "	$OBJNAME \\"
+	echo "	$NEW_WORD\\"
+done;
+echo
+echo
+
+echo OBJETOS=\\
+for WORD in $WORDS; do
+	NEW_WORD=`echo $WORD | sed -e "s/\.\///"`
+	DIRNAME=`dirname $NEW_WORD`
+	BASENAME=`basename $NEW_WORD .cpp`
+	OBJNAME=$OBJDIR/$DIRNAME/$BASENAME.o	
+	echo "	$OBJNAME \\"
+	
+done;
+echo
+echo
+echo 'solver: $(OBJETOS)'
+echo '	$(LINK) $(OBJETOS) -o solver'
+echo
+echo 'clean:'
+echo '	rm -f $(OBJETOS) solver'
+echo depend:
+echo '	makedepend -I. $(FONTES)'
+echo
+
+
+for WORD in $WORDS; do
+	NEW_WORD=`echo $WORD | sed -e "s/\.\///"`
+	DIRNAME=`dirname $NEW_WORD`
+	BASENAME=`basename $NEW_WORD .cpp`
+	OBJNAME=$OBJDIR/$DIRNAME/$BASENAME.o	
+	echo $OBJNAME: $NEW_WORD
+	echo "	\$(CPP) \$(CPPFLAGS) -o $OBJNAME $NEW_WORD"
+	echo
+done;
+
+

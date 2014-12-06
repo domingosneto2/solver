@@ -1,0 +1,6 @@
+
+
+CPP=g++
+CPPFLAGS=-I. -c
+LINK=g++
+

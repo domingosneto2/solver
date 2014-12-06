@@ -1,0 +1,10 @@
+called: g++
+	/home/domingos/Documents/PF/PF/solver
+	g++
+	-O3
+	-I.
+	-c
+	-o
+	Objetos/aco/AntSolver.o
+	aco/AntSolver.cpp
+
